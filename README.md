@@ -33,14 +33,14 @@ Get your highscore up and have fun!
 ### Windows
 1. Download the latest release from the [Releases](https://github.com/cosmic-jumper/releases) page.
 2. Extract the downloaded `.zip` file.
-3. Double-click the `CosmicJumper.exe` file to start the game.
+3. Double-click the `build_output/CosmicJumper.exe` file to start the game.
 
 ### macOS/Linux
 1. Download the latest release from the [Releases](https://github.com/cosmic-jumper/releases) page.
 2. Extract the downloaded `.zip` file.
 3. Open a terminal and run:
    ```bash
-   ./CosmicJumper
+   ./build_output/CosmicJumper
 
 ## License
 Comsic Jumper is licensed under the [GNU General Public License v3.0.](LICENSE)
