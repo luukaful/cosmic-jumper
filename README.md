@@ -42,5 +42,8 @@ Get your highscore up and have fun!
    ```bash
    ./build_output/CosmicJumper
 
+NOTE: Windows might give a "Windows protected your PC" message when first running the app. You can click More info -> Run anyway to run the app.
+Of course, I can assure you the app is safe. If you don't believe me, you can take a look at the source code yourself and run/build it yourself as well to guarantee its safety.
+
 ## License
 Comsic Jumper is licensed under the [GNU General Public License v3.0.](LICENSE)
