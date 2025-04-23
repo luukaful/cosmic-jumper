@@ -10,6 +10,8 @@
 - [History](#history)
 - [Gameplay](#gameplay)
 - [How to play](#how-to-play)
+  - [Using VENV](#run-venv)
+  - [Using global interpreter](#run-global)
 - [License](#license)
 
 ## History
@@ -28,13 +30,13 @@ Dodge them by jumping, crouching or even hitting them!
 Get your highscore up and have fun!
 
 ## How to play
-### Run using packaged virtual environment (venv)
+<h3 id="run-venv"> Run using packaged virtual environment (venv) </h3>
 - Either clone or download and extract the project from this repository
 - Run the appropriate launch script:
   - On Windows: run/run_windows.bat
   - On Linux/MacOS: run/run_linux-macos.bat
 
-### Run using a global interpreter
+<h3 id="run-global"> Run using a global interpreter </h3>
 - Either clone or download and extract the project from this repository
 - Download & install Python 3.7 or newer from [their official source](https://www.python.org/downloads/)
   - Make sure to check the "Add Python to PATH" option - this will save you a lot of time later!
