@@ -30,13 +30,13 @@ Dodge them by jumping, crouching or even hitting them!
 Get your highscore up and have fun!
 
 ## How to play
-<h3 id="run-venv"> Run using packaged virtual environment (venv) </h3>
+### <a name="run-venv"> Run using packaged virtual environment (venv) </a>
 - Either clone or download and extract the project from this repository
 - Run the appropriate launch script:
   - On Windows: run/run_windows.bat
   - On Linux/MacOS: run/run_linux-macos.bat
 
-<h3 id="run-global"> Run using a global interpreter </h3>
+### <a name="run-global"> Run using a global interpreter </a>
 - Either clone or download and extract the project from this repository
 - Download & install Python 3.7 or newer from [their official source](https://www.python.org/downloads/)
   - Make sure to check the "Add Python to PATH" option - this will save you a lot of time later!
@@ -45,6 +45,7 @@ Get your highscore up and have fun!
 pip install pygame
 ```
 - Run the game from your terminal using the associated command: <br>
+
 <strong>Windows:</strong>
 ```bash
 pythonw main.py
