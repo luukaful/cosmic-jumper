@@ -1,49 +1,96 @@
 <div align="center">
-  <h1 align="center"> Cosmic Jumper </h1>
+  <img src="https://via.placeholder.com/150" alt="Cosmic Jumper Logo" width="150">
+  <h1 align="center">🌌 Cosmic Jumper 🌌</h1>
   <p align="center">
-    <strong>Cosmic Jumper is a little game I made for my computer science class, inspired by Google Chrome's "The Dinosaur Game".</strong>
+    <strong>A thrilling endless runner game inspired by Google Chrome's Dinosaur Game, built with PyGame.</strong>
+  </p>
+  <p align="center">
+    <a href="https://github.com/cosmic-jumper/releases"><img src="https://img.shields.io/github/v/release/cosmic-jumper?style=for-the-badge" alt="Latest Release"></a>
+    <a href="LICENSE"><img src="https://img.shields.io/badge/License-GPLv3-blue?style=for-the-badge" alt="License"></a>
   </p>
 </div>
 
-## Table Of Contents
-- [Table Of Contents](#table-of-contents)
-- [History](#history)
-- [Gameplay](#gameplay)
-- [How to play](#how-to-play)
-  - [Windows](#windows)
-  - [MacOS/Linux](#macOS/linux)
-- [License](#license)
+---
 
-## History
-The game originally started out as a school project. For my computer science class I was tasked with making a little game.
-While others in my class opted for a terminal-based Tic-Tac-Toe game, I decided to show what I can do and create a bigger game using PyGame.
-The inspiration for Cosmic Jumper arose from Google Chrome's "The Dinosaur Game". In the middle of class my wifi turned off, and the famous Dinosaur Game appeared in my Chrome browser.
-I started playing a little and thought to myself: "What if I made something similar to this, but even better?"
-And so I started researching and coding, and before I knew it, I had a game!
+## 🚀 Table of Contents
+- [📜 History](#-history)
+- [🎮 Gameplay](#-gameplay)
+- [🕹️ How to Play](#️-how-to-play)
+  - [💻 Windows](#-windows)
+  - [🍎 macOS/Linux](#-macoslinux)
+- [🛠️ Build Guide](#-build-guide)
+- [📄 License](#-license)
 
-For those interested: I got a proper grade of 92% for this game (which I'm very happy with). :)
+---
 
-## Gameplay
-The concept of the game is simple. You play as an astronaut, running on a planet's surface, accumulating a score.
-Along the way, you will encounter obstacles - like rocks, comets and UFO's.
-Dodge them by jumping, crouching or even hitting them!
-Get your highscore up and have fun!
+## 📜 History
+Cosmic Jumper began as a school project for my computer science class. While most of my classmates created simple terminal-based games, I decided to push the boundaries and build something more ambitious using PyGame.
 
-## How to play
-### Windows
+The idea came to me when my internet disconnected during class, and I started playing Google Chrome's Dinosaur Game. I thought, "What if I made something similar, but even better?" And so, Cosmic Jumper was born.
+
+💯 **Grade Received:** 92% (I'm very proud of this!)
+
+---
+
+## 🎮 Gameplay
+The concept is simple yet addictive:
+- Play as an astronaut running on a planet's surface.
+- Dodge obstacles like **rocks**, **comets**, and **UFOs**.
+- Jump, crouch, or hit obstacles to survive and rack up your high score.
+
+🌟 **Challenge yourself and aim for the highest score!**
+
+---
+
+## 🕹️ How to Play
+
+### 💻 Windows
 1. Download the latest release from the [Releases](https://github.com/cosmic-jumper/releases) page.
 2. Extract the downloaded `.zip` file.
 3. Double-click the `build_output/CosmicJumper.exe` file to start the game.
 
-### macOS/Linux
+### 🍎 macOS/Linux
 1. Download the latest release from the [Releases](https://github.com/cosmic-jumper/releases) page.
 2. Extract the downloaded `.zip` file.
 3. Open a terminal and run:
    ```bash
    ./build_output/CosmicJumper
+---
 
-NOTE: Windows might give a "Windows protected your PC" message when first running the app. You can click More info -> Run anyway to run the app.
-Of course, I can assure you the app is safe. If you don't believe me, you can take a look at the source code yourself and run/build it yourself as well to guarantee its safety.
+## 🛠️ Build Guide
 
-## License
-Comsic Jumper is licensed under the [GNU General Public License v3.0.](LICENSE)
+### 💻 Windows
+To build Cosmic Jumper from source on Windows:
+
+1. Make sure you have **Python 3.9+** installed. You can download it from [python.org](https://www.python.org/downloads/).
+2. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Run the game:
+   ```bash
+   python main.py
+   ```
+4. (Optional) To create a standalone executable, use `pyinstaller`:
+   ```bash
+   pip install pyinstaller
+   pyinstaller --onefile --windowed main.py --distpath build_output
+   ```
+
+### 🍎 macOS/Linux
+To build and run the game on macOS or Linux:
+
+1. Ensure you have **Python 3.9+** installed (use `python3 --version` to check).
+2. Install dependencies:
+   ```bash
+   pip3 install -r requirements.txt
+   ```
+3. Run the game:
+   ```bash
+   python3 main.py
+   ```
+4. (Optional) To build a standalone executable (you may need extra configuration for different distros):
+   ```bash
+   pip3 install pyinstaller
+   pyinstaller --onefile --windowed main.py --distpath build_output
+   ```
