@@ -1,11 +1,10 @@
 <div align="center">
-  <img src="https://via.placeholder.com/150" alt="Cosmic Jumper Logo" width="150">
   <h1 align="center">🌌 Cosmic Jumper 🌌</h1>
   <p align="center">
     <strong>A thrilling endless runner game inspired by Google Chrome's Dinosaur Game, built with PyGame.</strong>
   </p>
   <p align="center">
-    <a href="https://github.com/cosmic-jumper/releases"><img src="https://img.shields.io/github/v/release/cosmic-jumper?style=for-the-badge" alt="Latest Release"></a>
+    <a href="https://github.com/luukaful/cosmic-jumper/releases"><img src="https://img.shields.io/github/v/release/luukaful/cosmic-jumper?style=for-the-badge" alt="Latest Release"></a>
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-GPLv3-blue?style=for-the-badge" alt="License"></a>
   </p>
 </div>
